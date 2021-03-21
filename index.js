@@ -18,7 +18,7 @@ app.use('/posts', postRoutes);
 
 app.get('/', (req, res) => {
   res.send("Hello to memories API");
-})
+});
 
 const PORT = process.env.PORT || 8000;
 
